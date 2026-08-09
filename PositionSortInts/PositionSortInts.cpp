@@ -1,4 +1,4 @@
- // Daisha Haymon
+// Daisha Haymon  
 // Copyright 2026
 #include "positionsortints.h"
 #include <vector>
@@ -37,7 +37,6 @@ bool PositionSort::readrawdata(std::string filename) {
   return true;
 }
 
-// TODO(daishalh): template
 int PositionSort::returnmaxindex(std::vector<int> datavector) {
 return datavector.size()-1;
 }
@@ -131,18 +130,3 @@ void PositionSort::printavector(std::string vectorname) {
     return;
   }
 }
-
-int main() {
-PositionSort nsort;
-PositionSort n2sort;
-PositionSort thousandsort;
-PositionSort seventythousandsort;
-PositionSort twentythousandsort;
-PositionSort fiftymillionditto;
-PositionSort doubles;
-seventythousandsort.readrawdata("ONtestfour.txt");
-seventythousandsort.fillsortedvector();
-return 0;
-}
-
-
