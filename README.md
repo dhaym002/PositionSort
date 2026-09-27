@@ -6,10 +6,12 @@ The program performs faster than some Quicksort algorithms it has been tested ag
 
 The most stenuous stress-test of the algorithm has been that of 50,000,000 integers ranging from 0-99999996, given to the program in reverse order.
 
-At this data-size the program runs 3-5 seconds faster than Quicksort algorithms.
+At this data-size the program runs 3-5 seconds faster than many Quicksort algorithms.
 
 The algorithm is not an "in-place" sorting algorithm, but I am currently experimenting with ways to make it so;
-One auxillary vector is used and subsequently resized to 0.
+One auxillary vectors is used and subsequently resized to 0.
+
+Position sort is a stable sorting algorithm.
 
 MIT License
 
