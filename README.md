@@ -6,7 +6,7 @@ The program performs faster than the Quicksort algorithms it has been tested aga
 
 The most stenuous stress-test of the algorithm has been that of 50,000,000 integers ranging from 0-99999996, given to the program in reverse order.
 
-At this data-size the programs runs 3-5 seconds faster than Quicksort algorithms.
+At this data-size the program runs 3-5 seconds faster than Quicksort algorithms.
 
 The algorithm is not an "in-place" sorting algorithm, but I am currently experimenting with ways to make it so;
 One auxillary vector is used and subsequently resized to 0.
