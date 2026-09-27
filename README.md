@@ -1,6 +1,7 @@
 
 
 Position Sort was designed to sort large amounts of large numbers efficiently. 
+--
 
 The program performs faster than some Quicksort algorithms it has been tested against, such as those which use the Lomuto partitioning technique.
 
@@ -14,7 +15,7 @@ The algorithm is not an "in-place" sorting algorithm, but I am currently experim
 One auxillary vector is used and a temp vector is used to copy values—both are resized to 0 before leaving scope. 
 
 Position sort is a stable sorting algorithm.
---
+
 
 MIT License
 
