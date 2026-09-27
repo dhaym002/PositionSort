@@ -8,10 +8,13 @@ The most stenuous stress-test of the algorithm has been that of 50,000,000 integ
 
 At this data-size the program runs 3-5 seconds faster than many Quicksort algorithms.
 
+Compared to a Quicksort algorithm which uses Hoare's partitioning method, the program sorts a vector consisting only of repeating values faster. Postition Sort tends to sort the 50,000,000 reverse-sorted vector ~ 1.5 seconds slower than the Hoare's partition-aglorthim. 
+
 The algorithm is not an "in-place" sorting algorithm, but I am currently experimenting with ways to make it so;
-One auxillary vectors is used and subsequently resized to 0.
+One auxillary vector is used and a temp vector is used to copy values—both are resized to 0 before leaving scope. 
 
 Position sort is a stable sorting algorithm.
+--
 
 MIT License
 
