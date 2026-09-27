@@ -1,5 +1,5 @@
 
-============================================================================================================================================
+=============================================================================================
 Position Sort was designed to sort large amounts of large numbers efficiently. 
 
 The program performs faster than the Quicksort algorithms it has been tested against, including those which use the Lomuto partitioning technique.
@@ -11,7 +11,7 @@ At this data-size the programs runs 3-5 seconds faster than Quicksort algorithms
 The algorithm is not an "in-place" sorting algorithm, but I am currently experimenting with ways to make it so;
 One auxillary vector is used and subsequently resized to 0.
 
-============================================================================================================================================
+================================================================================================
 MIT License
 
 Copyright (c) 2026 Daisha Haymon
