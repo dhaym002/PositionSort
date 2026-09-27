@@ -1,8 +1,9 @@
 Position Sort was designed to sort large amounts of large numbers efficiently. 
 
-The program performs faster than the quicksort algorithms it has been tested against, including those which use the Lomuto partitioning method.
+The program performs faster than the quicksort algorithms it has been tested against, including those which use the Lomuto partitioning technique.
 
-The most stenuous stress-test of the algorithm has been that of 50,000,000 integers given to the program in reverse order.
+The most stenuous stress-test of the algorithm has been that of 50,000,000 integers ranging from 0-99999996, given to the program in reverse order.
+
 At this data-size the programs runs 3-5 seconds faster than Quicksort algorithms.
 
 The algorithm is not an "in-place" sorting algorithm, but I am currently experimenting with ways to make it so;
