@@ -18,3 +18,4 @@ Position sort is a stable sorting algorithm.
 
 This code is covered under MIT Licnese Copyright (c) 2026 Daisha Haymon
 --
+See LICENSE for more details. 
