@@ -7,7 +7,7 @@ The program performs faster than some Quicksort algorithms it has been tested ag
 
 The most stenuous stress-test of the algorithm has been that of 50,000,000 integers ranging from 0-99999996, given to the program in reverse order.
 
-At this data-size the program runs 3-5 seconds faster than many Quicksort algorithms.
+With this data set the program runs 3-5 seconds faster than many Quicksort algorithms.
 
 Compared to a Quicksort algorithm which uses Hoare's partitioning method, the program sorts a vector consisting only of repeating values ! 1.30 seconds faster. Postition Sort tends to sort the 50,000,000 reverse-sorted vector ~ 3.5 seconds slower than the Hoare's partition-aglorthim. 
 
